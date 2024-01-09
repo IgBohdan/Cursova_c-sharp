@@ -1,0 +1,124 @@
+#regPage {
+ background-color: rgba(120, 120, 120, 0.1);
+ width: 500px;
+ height: 600px;
+ margin: auto;
+ justify-content: center;
+ margin-top: 50px;
+ display: flex;
+ flex-direction: column;
+ gap: 1.2em;
+ border: 3px solid whitesmoke;
+ border-radius: 15px;
+ color: whitesmoke;
+}
+
+#regPage h1 {
+ max-height: max-content;
+}
+#regPage .log {
+font-size: 2em;
+    max-height: max-content;
+   }
+   #regPage .logbutton{
+margin: 0;
+height: max-content;
+width: max-content;
+margin-bottom:43px;
+}
+
+.RegPArtnerinput::placeholder{
+ color: rgb(107, 106, 106);
+ font-weight: 600;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.RegPArtnerinput{
+ width: 400px;
+ outline: none;
+ background: transparent;
+ padding: 8px 15px;
+ font-size: 17px;
+ color: whitesmoke;
+ border: none;
+ border-bottom: 2px solid whitesmoke;
+ margin: auto;
+ justify-content: center;
+ margin-top: -10px;
+}
+
+.regIconPartner {
+    margin-top: -100px;
+    margin-left: 435px;
+}
+
+.RegPArtnerinputRegPArtnerselector {
+    width: 433px;
+    outline: none;
+    background: transparent;
+    padding: 8px 15px;
+    font-size: 17px;
+    color: whitesmoke;
+    border: none;
+    border: 2px solid whitesmoke;
+    margin: auto;
+    margin-top: 10px;
+    justify-content: center;
+}
+
+.RegPArtnerinput_checkbox{
+ margin: auto;
+ display: flex;
+ flex-wrap: nowrap;
+ gap: 1vw;
+ height: max-content;
+ align-items: center;
+ margin-top: -70px;
+}
+
+.RegPArtnerinput_buttonsubmit{
+    color: whitesmoke;
+    border: 2px;
+    padding: 5px 10px;
+    width: 150px;
+    font-weight: 6000;
+    font-size: 20px;
+    margin: auto;
+    margin-top: -30px;
+    margin-left: 90px;
+    justify-content: center;
+    transition: 0.4s;
+    background-color: #ff8901;
+    border: 3px solid #ff8901;
+    border-radius: 50px;
+}
+
+.RegPArtnerinput_buttonsubmit:hover {
+ color: whitesmoke;
+ background-color: rgba(120, 120, 120, 0.1);
+ border: 3px solid #ff8901;
+ cursor: pointer;
+}
+
+.Entering {
+    color: whitesmoke;
+    border: 2px;
+    padding: 5px 10px;
+    width: 150px;
+    font-weight: 6000;
+    font-size: 20px;
+    margin: auto;
+    transform: translateY(-85px);
+    margin-left: 180px;
+    justify-content: center;
+    transition: 0.4s;
+    background-color: #ff8901;
+    border: 3px solid #ff8901;
+    border-radius: 50px;
+}
+
+.Entering:hover {
+    color: whitesmoke;
+    background-color: rgba(120, 120, 120, 0.1);
+    border: 3px solid #ff8901;
+    cursor: pointer;
+}

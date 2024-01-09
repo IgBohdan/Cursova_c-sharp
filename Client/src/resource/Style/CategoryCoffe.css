@@ -1,0 +1,121 @@
+#text-header-nologin{
+margin: 0;
+margin-left: auto;
+}
+
+#registration {
+ font-weight: bold;
+ font-size: 17px;
+ padding: 10px;
+ padding-left: 15px;
+ padding-right: 15px;
+ border-radius: 50px;
+ margin-right: auto;
+
+ border: none;
+ background-color: rgb(8, 183, 8);
+ color: whitesmoke;
+ cursor: pointer;
+}
+
+#registration:hover {
+ background-color: rgb(69, 116, 0);
+}
+
+
+#pages {
+    display: flex;
+    justify-content: center;
+}
+
+.coffee-in {
+    width: 327px;
+    height: 204px; 
+    background-color: #1f2326;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.coffee-in:hover {
+    flex:auto 15%;
+    transform: scale(1.05);
+}
+
+.clover {
+    width: 327px;
+    height: 204px; 
+    background-color: #1f2326;
+    border-radius: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.clover:hover {
+    flex:auto 15%;
+    transform: scale(1.05);
+}
+
+.lagartoCoffee {
+    width: 327px;
+    height: 204px; 
+    background-color: #1f2326;
+    border-radius: 15px;
+    margin-left: 20px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+.lagartoCoffee:hover {
+    flex:auto 15%;
+    transform: scale(1.05);
+}
+
+#blockTwo {
+    margin-left: 163px;
+    margin-top: 20px;
+    width: 327px;
+    height: 204px;
+    background-color: #1f2326;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: .4s;
+}
+
+#blockTwo:hover {
+    flex:auto 15%;
+    transform: scale(1.05);
+}
+
+.kratomShop {
+    text-decoration: none;
+}
+
+img {
+    width: 327px;
+    height: 156px;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#name {
+    margin-top: -100px;
+    color: white;
+}
+
+#recomendate {
+    margin-top: 74px;
+    margin-right: 230px;
+    color: #FF8130;
+}
+
+.iconLike {
+    margin-right: 5px;
+}
+
+footer {
+    height: 280px;
+    margin-top: 100px;
+    background-color: #0b0d10;
+}

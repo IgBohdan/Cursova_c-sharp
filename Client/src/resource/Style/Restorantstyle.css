@@ -1,0 +1,183 @@
+#page_category {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vw;
+    padding: 2vw;
+}
+
+#tagg {
+    text-align: left;
+    color: whitesmoke;
+}
+#actionText {
+    color: whitesmoke;
+}
+#actionText2 {
+    color: whitesmoke;
+}
+
+#section {
+    max-width: max-content;
+    flex: auto;
+}
+#sect2{
+    width: auto;
+    flex: 10%;
+}
+
+#section1 {
+    width: 180px;
+    text-align: left;
+    display: block;
+    background-color: #1f2326;
+}
+
+#section h5 {
+    font-size: 15px;
+    color: rgb(0, 255, 149);
+}
+
+#section1 a {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+    width: 170px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+#section2 {
+    width: 180px;
+    text-align: left;
+    display: block;
+    background-color: #1f2326;
+    transform: translateY(60px);
+}
+
+#section2 a {
+    display: block;
+    font-size: 17px;
+    text-decoration: none;
+    color: whitesmoke;
+    width: 170px;
+    height: 30px;
+    padding-top: 10px;
+    padding-left: 10px;
+    transition: 0.5s;
+}
+
+#section1>a:hover {
+    background-color: #0C1013;
+}
+
+#section2>a:hover {
+    background-color: #0C1013;
+}
+
+#action {
+width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.actioncard {
+    flex: 30%;
+    min-width: 250px;
+    max-width: 50%;
+    height: 190px;
+    background-color: #1f2326;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.actioncard:hover {
+    transform: scale(1.05);
+}
+
+.actioncard img {
+    width: 100%;
+    max-width: 100%;
+    margin-top: -25px;
+}
+
+#actionshow {
+    font-size: 17px;
+    width: 60px;
+    height: 25px;
+    margin-left: auto;
+    margin-right:25px ;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: orange;
+    color: black;
+    opacity: 1;
+    transform: translateY(-5px);
+}
+#actionshow h3{
+    padding: 0;
+    margin: 0;
+}
+
+.actioncard .iconLike {
+    margin-left: 10px;
+}
+#name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(241, 223, 223);
+    display: flex;
+    position: relative;
+    padding: 0;
+    margin: 0;
+    margin-top: -154px;
+    height: 156px;
+}
+.actioncard h5 {
+    display: flex;
+    margin:0 ;
+margin-top: auto;
+margin-bottom: auto;
+margin-left: .5vw;
+    margin-right: auto;
+    color: #FF8130;
+}
+
+#pageRestorants {
+    min-width: 30vw;
+    min-height: 30vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.restorants {
+    width: 294px;
+    height: 204px;
+    background-color: #1f2326;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+
+.restorants:hover {
+    transform: scale(1.05);
+}
+
+.restorants img {
+    width: 100%;
+}
+
+.restorants h5 {
+    color: #FF8130;
+}

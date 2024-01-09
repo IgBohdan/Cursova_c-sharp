@@ -1,0 +1,68 @@
+#regCuryerFrom {
+ width: 400px;
+ height: 500px;
+ border: 3px solid whitesmoke;
+ border-radius: 15px;
+ background-color: rgba(120, 120, 120, 0.1);
+ margin: auto;
+ margin-top: 70px;
+ justify-content: center;
+}
+
+#regCuryerFrom input::placeholder {
+ color: whitesmoke;
+}
+
+#regCuryerFrom input {
+ width: 300px;
+ padding: 10px 5px;
+ margin-left: 20px;
+ border: none;
+ outline: none;
+ background: transparent;
+ color: whitesmoke;
+ border-bottom: 2px solid whitesmoke;
+ font-size: 17px;
+}
+
+#regCuryerFrom input:nth-child(1) {
+ margin-top: 100px;
+}
+
+#regCuryerFrom input:nth-child(2) {
+ margin-top: 10px;
+}
+
+#regCuryerFrom input:nth-child(3) {
+ margin-top: 10px;
+}
+
+#numberCuryer {
+ margin-top: 10px;
+}
+
+#passwordCuryer {
+ margin-top: 10px;
+}
+
+.regIcon {
+ color: whitesmoke;
+ transform: translateX(-30px);
+}
+
+#regCuryerFrom button {
+ width: 250px;
+ height: 40px;
+ border: 3px solid #ff8901;
+ border-radius: 50px;
+ background-color: #ff8901;
+ margin-top: 100px;
+ font-size: 20px;
+ color: whitesmoke;
+ transition: 0.4s;
+}
+
+#regCuryerFrom button:hover {
+ background-color: rgba(120, 120, 120, 0.1);
+ border: 3px solid #ff8901;
+}

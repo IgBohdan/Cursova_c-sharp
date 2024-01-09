@@ -1,0 +1,128 @@
+.categoryamain{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 2vw;
+}
+.categoryaSortblock{
+flex: 20%;
+    padding: 3vh 1vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+}
+
+.categoryapagmain{
+    padding: 3vh 1vw;
+    flex: 75%;
+}
+.sstslist{
+    display: flex;
+    flex-wrap: wrap;
+    max-width:100%;
+}
+
+.itemamgizn{
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration:none;
+    color:var(--text-default-color);
+    margin: 0;
+    padding: 1vh;
+    max-width: max-content;
+    min-width: auto;
+    flex: 20% 1;
+    gap: 1vh;
+}
+
+
+.itemamgizn:hover {
+    text-decoration:none;
+}
+
+.itpgototest{
+    border-radius: 15px;
+    min-width: 100%;
+    height: 100px;
+    background-color: rgb(88, 15, 203);
+}
+.itemamgizn-infotext{
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    gap: 1vw;
+    width: 100%;
+    padding:0 .5vw;
+    font-size: calc(1rem);
+}
+.itemamgizn-infotext>*{
+    flex: 20%;  
+}
+
+.itemamgizn-infotext-likes,
+.itemamgizn-infotext-likesnumber
+{
+    height: max-content;
+    margin: 0;
+}
+
+.itemamgizn-infotext-newdel{
+    background-color: rgb(255, 106, 0);
+    padding: .2vh 1vw;
+    color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    display: flex;
+    margin: 0;
+    margin-right: auto;
+}
+.itemamgizn-infotext-freedel{
+    background-color: rgb(255, 106, 0);
+    padding: .2vh 1vw;
+    color: white;
+    border-radius: 10px;
+    margin-left: auto;
+    display: flex;
+    margin: 0;
+    margin-left: auto;
+}
+.categoryaSortblock p{
+    background-color: rgba(180, 180, 180, 0.621);
+    margin: 0;
+    padding: 2vh 2vw;
+    border-radius: 1vh;
+}
+.category_prodtype{
+width: max-content;
+margin:  0;
+    font-size: 2em;
+}
+
+
+.category_promo,
+.category_rest{
+width: 100%;
+}
+
+
+.categoryapagmain_labellocation{
+    max-width: max-content;
+    margin: 0;
+    font-size: 11pt;
+}
+
+
+.category_promo{
+    margin-bottom: 5vh;
+}
+
+.addtocardbutton{
+padding: 5px 15px;
+margin-left: auto;
+    border: none;
+    border-radius: 50px;
+    background-color: #FF8130;
+    color: whitesmoke;
+    font-weight: bold;
+}
